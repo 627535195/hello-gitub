@@ -1,0 +1,21 @@
+$ git config --global user.name "zmli"
+$ git config --global user.email "yours@qq.com"
+$ git config --global color.ui auto
+
+
+github
+yours@qq.com
+***
+
+Gravatar是Globally Recognized Avatar的缩写,是gravatar推出的一项服务，意为“全球通用头像”
+
+$ ssh-keygen -t rsa -C "yours@qq.com"
+github account settings import id_rsa.pub
+$ ssh -T git@github.com
+
+
+$ git clone https://github.com/yours/hello-gitub.git
+
+$ cd hello-gitub
+
+$ git status
